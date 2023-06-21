@@ -1,0 +1,373 @@
+body{
+    background-color: rgb(255, 234, 238);
+
+}
+nav{
+    
+    margin-top: 60px;
+    height: 90px;
+}
+
+nav ul{
+    margin-right: 20px;
+}
+nav ul li{
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-underline-offset: 100%;
+    text-decoration-color: rgb(255, 212, 212)
+
+}
+
+#nav{
+    left: 1110px;
+    position: absolute;
+    margin-top: -80px;
+    height: 102px;
+}
+
+#nav #ul{
+    margin-right: 20px;
+}
+#nav #ul .li{
+
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+
+}
+#nav #ul .li {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-underline-offset: 100%;
+    text-decoration-color: rgb(255, 212, 212);
+
+}
+.btn{
+    background-color:rgb(255, 212, 212);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding:20px 35px;
+    border-radius:25px;
+    transform: .4s;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#line1{
+    background-color:rgb(255, 212, 212);
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+}
+#line2{
+    background-color:rgb(252, 219, 33);
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+}
+
+
+#circle1{
+    background-color:rgb(255, 212, 212);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    border-radius: 300px;
+}
+#circle2{
+    background-color:  rgb(252, 219, 33);
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 9%;
+    left: 31%;
+    border-radius: 300px;
+}
+#circle3{
+    background-color:rgb(255, 212, 212);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 3%;
+    left: 62%;
+    border-radius: 300px;
+}
+#circle4{
+    background-color:  rgb(252, 219, 33);
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 5%;
+    left: 62%;
+    border-radius: 300px;
+}
+#title{
+    font-family: 'Felix Titling', sans-serif;
+    color: black;
+    position: absolute;
+    top: 8%;
+    left: 45%;
+    font-size: 70px;
+}
+
+#cake-circle {
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border-radius: 300px;
+}
+
+#cake-circle2 {
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+    left: 21.5%;
+    border-radius: 300px;
+}
+#titel-cake1 {
+    position: absolute;
+    top: 67%;
+    left: 23%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#price-cake1 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: large;
+    
+}
+#cake-line {
+    background-color:rgb(255, 212, 212);
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 52%;
+    left: 32.5%;
+}
+#cake-circle3{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border-radius: 300px;
+}
+#cake-circle4{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+    left: 51.5%;
+    border-radius: 300px;
+}
+#titel-cake2 {
+    position: absolute;
+    top: 67%;
+    left: 53%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#price-cake2 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    font-size: large;
+}
+#cake-line2{
+    background-color:rgb(255, 212, 212);
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 52%;
+    left: 62.5%;
+}
+#cake-circle5{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    border-radius: 300px;
+}
+#cake-circle6{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+    left: 81.5%;
+    border-radius: 300px;
+}
+#titel-cake3 {
+    position: absolute;
+    top: 67%;
+    left: 83%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#price-cake3 {
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    font-size: large;
+}
+#cake-line3{
+    background-color:rgb(255, 212, 212);
+    width: 40px;
+    height: 240px;
+    position: absolute;
+    top: 65%;
+    left: 85.5%;
+}
+#cake-circle7{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    border-radius: 300px;
+}
+#cake-circle8{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 90%;
+    left: 81.5%;
+    border-radius: 300px;
+}
+#titel-cake4 {
+    position: absolute;
+    top: 117%;
+    left: 83%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#price-cake4 {
+    position: absolute;
+    top: 120%;
+    left: 85%;
+    font-size: large;
+}
+#cake-line4{
+    background-color:rgb(255, 212, 212);
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 101.5%;
+    left: 62.5%;
+}
+#cake-circle9{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    border-radius: 300px;
+}
+#cake-circle10{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 90%;
+    left: 51.5%;
+    border-radius: 300px;
+}
+#titel-cake5 {
+    position: absolute;
+    top: 117%;
+    left: 53%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+#price-cake5 {
+    position: absolute;
+    top: 120%;
+    left: 55%;
+    font-size: large;
+}
+#cake-line5 {
+    background-color:rgb(255, 212, 212);
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    top: 101.5%;
+    left: 32.5%;
+}
+#cake-circle11{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    border-radius: 300px;
+}
+#cake-circle12{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 90%;
+    left: 21.5%;
+    border-radius: 300px;
+}
+
+#cake-line6{
+    background-color:rgb(255, 212, 212);
+    width: 40px;
+    height: 240px;
+    position: absolute;
+    top: 115%;
+    left: 25.5%;
+}
+#cake-circle13{
+    background-color:rgb(255, 212, 212);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 145%;
+    left: 20%;
+    border-radius: 300px;
+}
+#cake-circle14{
+    background-color:rgb(255, 234, 238);
+    width: 165px;
+    height: 180px;
+    position: absolute;
+    top: 145%;
+    left: 21.5%;
+    border-radius: 300px;
+}
